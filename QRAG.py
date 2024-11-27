@@ -153,7 +153,7 @@ def combined_semantic_search(questions, pages, model, faiss_index, top_k=3):
 
 
 def make_request_mistral(prompt):
-    api_key = "nKMmuqxD1WeikspamzeaJRmJOgxBsqsC"
+    api_key = ""
     model = "mistral-large-latest"
     client = Mistral(api_key=api_key)
 
